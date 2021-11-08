@@ -1,0 +1,18 @@
+
+.menu-box {
+  float: left;
+  width: 33%;
+  min-height: 400px;
+}
+/*.menu-box table {
+  max-height: 100px;
+  overflow-y: scroll;
+}*/
+
+/*thead, tbody { display: block; }*/
+
+.menu-box  tbody {
+    height: 50px;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    /*overflow-x: hidden;   Hide the horizontal scroll */
+}
